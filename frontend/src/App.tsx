@@ -9,6 +9,7 @@ function App() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsLoading(true)
+    setShortenedUrl('something');
     // Simulate API call
     // setTimeout(() => {
     //   setShortenedUrl()
